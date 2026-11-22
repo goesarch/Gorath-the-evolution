@@ -1,0 +1,17 @@
+{
+  "name": "echoes-the-evolution",
+  "version": "0.8.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/logic.test.js test/glue.test.js test/client.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
